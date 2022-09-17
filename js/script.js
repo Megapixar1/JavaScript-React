@@ -54,4 +54,68 @@
 //        break;   
 //}
 
+'Логические операторы';
+//const hamburger = 5;
+//const fries = 0;
+
+//if (hamburger && fries) {
+//    console.log('Я краще зїм кабана!');
+//} 
+
+
+//const hamburger = 3;
+//const fries = 3;
+//const cola = 0;
+//const nuggets = 2;
+
+//if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//    console.log('Все сыты');
+//} else {
+//    console.log('Мы уходим ');
+//}
+
+//console.log(hamburger === 3 && (cola === 2 || fries === 3) && nuggets);
+//console.log(1 && 0);
+//console.log(1 && 5);
+
+
+//const hamburger = 3,
+//      fries = 0,
+//      cola = 0;
+
+//if (cola || hamburger || fries) {
+//    console.log('Мы довольны!');
+//} else {
+//    console.log('Мы уходим ');
+//}
+
+//console.log(cola || hamburger  || fries);
+
+//let johnReport, alexReport, samReport, mariaReport = 'done';
+
+//if (johnReport || alexReport || samReport || mariaReport) {
+//    console.log('Мария умничка');
+//} else {
+//    console.log('Рабы на галерах не працюють');
+//}
+
+//console.log(johnReport || alexReport || samReport || mariaReport);
 "use srtict";
+
+
+ 
+//console.log( NaN || 2 || undefined );
+ 
+//console.log( NaN && 2 && undefined );
+ 
+//console.log( 1 && 2 && 3 );
+ 
+//console.log( !1 && 2 || !3 );
+ 
+//console.log( 25 || null && !3 );
+ 
+//console.log( NaN || null || !3 || undefined || 5);
+ 
+//console.log( NaN || null && !3 && undefined || 5);
+ 
+console.log( 5 === 5 && 3 > 1 || 5);
