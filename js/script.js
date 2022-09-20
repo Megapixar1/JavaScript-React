@@ -100,10 +100,7 @@
 //}
 
 //console.log(johnReport || alexReport || samReport || mariaReport);
-"use srtict";
 
-
- 
 //console.log( NaN || 2 || undefined );
  
 //console.log( NaN && 2 && undefined );
@@ -118,4 +115,25 @@
  
 //console.log( NaN || null && !3 && undefined || 5);
  
-console.log( 5 === 5 && 3 > 1 || 5);
+//console.log( 5 === 5 && 3 > 1 || 5);
+'Циклы';
+
+//while (num <= 55) {
+//    console.log(num);
+//    num++;
+//}  
+
+//do {
+//    console.log(num);
+//    num++;
+//}
+//while (num < 55);
+//let num = 50;
+//for (let i = 1; i < 10; i++ ) {
+//    if (i === 6) {
+//        continue;
+//    }
+//    console.log(i);
+//}
+
+"use srtict";
