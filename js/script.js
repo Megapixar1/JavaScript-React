@@ -136,7 +136,6 @@
 //    console.log(i);
 //}
 
-"use srtict";
 'Цикл в цикле и метки';
 
 //for (let i = 0; i < 3; i++) {
@@ -195,3 +194,111 @@
 //        }
 //    }
 //} 
+
+//for (let i = 2; i <= 16; i++) {
+//    if (i % 2 === 0) {
+//        continue;
+//    } else {
+//        console.log(i);
+//    } 
+//}
+
+//let i = 2;
+//while (i <= 16) {
+//    if (i % 2 === 0) {
+//        i++;
+//        continue;
+//    } else {
+//        console.log(i);
+//    }
+//    i++;
+//}
+
+//const arrayOfNumbers = [];
+
+//for (let i = 5; i < 11; i++) {
+//    arrayOfNumbers[i - 5] = i
+//}
+//console.log(arrayOfNumbe
+
+//const arr = [3, 5, 8, 16, 20, 23, 50];
+//const result = [];
+
+//for (let i = 0; i < arr.length; i++) {
+//    result[i] = arr[i];
+//}
+//console.log(result);
+
+//let data = [ 5, 10, 'Shopping', 20, 'Homework'];
+
+//for (let i = 0; i < data.length; i++) {
+//    if (typeof(data[i]) === 'number') {
+//        data[i] *= 2;
+//    } else if (typeof(data[i]) === 'string') {
+//        data[i] = `${data[i]} - done`;
+//    }
+//}
+
+//console.log(data);
+
+//let arr2 = [ 5, 10, 'Shopping', 20, 'Homework'];
+
+//for (let i = 0; i < arr2.length; i++) {
+//    if(typeof(arr2[i]) === 'number') {
+//        arr2[i] *= 2;
+//    } else if (typeof(arr2[i]) === 'string') {
+//        arr2[i] = `${arr2[i]} - done`;
+//    }    
+//}
+
+//console.log(arr2);
+
+
+//let arr = [3, 5, 8, 16, 20, 23, 50];
+//let result = [];
+
+//for (let i = 0; i < arr.length; i++) {
+//    result[i] = arr[i];
+//}
+
+//console.log(result);
+
+//let data = [ 5, 10, 'Shopping', 20, 'Homework' ];
+//let result = [];
+
+//for (let i = 1; i <= data.length; i++) {
+//    result[i - 1] = data[data.length - i];
+//}
+
+//console.log(result);
+
+"use srtict";
+
+//let result = '';
+//const length = 7;
+
+//for (let i = 1; i < length; i++) {
+
+//    for (let j = 0; j < i; i++) {
+//        result += '*';
+//    }
+
+//    result += '\n';
+//}
+
+let result = '';
+const lines = 5;
+
+for (let i = 0; i <= lines; i++) {
+
+    for (let j = 0; j < lines - i; j++) {
+        result += ' ';
+    }
+    for (let j = 0; j < 2 * i + 1; j++) {
+        result += '*';
+    }
+
+    result += '\n';
+}
+console.log(result);
+
