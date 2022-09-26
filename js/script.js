@@ -179,7 +179,7 @@
 //    result[i] = arr[i];
 //}
 //console.log(result);
-"Числаа в массиві помножити на 2, а до строк додати -done"
+"Числаа в массиві помножити на 2, а до строк додати -done";
 //let data = [ 5, 10, 'Shopping', 20, 'Homework'];
 
 //for (let i = 0; i < data.length; i++) {
@@ -315,7 +315,7 @@
 //}
 //sunInput();
 
-"use srtict";
+
 'Функції';
 //let num = 20;
 //function showFirstMessage(text) {
@@ -346,14 +346,96 @@
 //};
 //logger();
 
-
 //const calc = (a, b) => a + b;
-const usdCurr = 28;
-const eurCurr = 32;
 
-function convert(amount, curr) {
-    console.log(curr * amount);
-}
+//const usdCurr = 28;
+//const eurCurr = 32;
 
-convert(500, usdCurr);
-convert(500, eurCurr);
+//function convert(amount, curr) {
+//    console.log(curr * amount);
+//}
+
+//convert(500, usdCurr);
+//convert(500, eurCurr);
+
+
+//const usdCurr = 28;
+//const discount = 0.9;
+
+//function convert(amount, curr) {
+//    return amount * curr;
+//}
+
+//function promotion(result) {
+//    console.log(result * discount);
+//}
+//const res = convert(500, usdCurr)
+//promotion(res);
+
+
+//function test() {
+
+//    for (let i = 0; i < 5; i++) {
+//        console.log(i);
+//        if (i === 2 ) return
+//     }
+//     console.log('Done');
+//}
+//test();
+
+//function doNothing() {};
+//console.log(doNothing() === undefined);
+
+
+//function sayHello(name) {
+//    return `Привет, ${name} `;
+//}
+//console.log(sayHello('Антон'));
+
+
+
+//function returnNeighboringNumbers(num) {
+//    return [num - 1, num, num + 1];
+//}
+//console.log(returnNeighboringNumbers(5));
+
+//'Чудова задачка';
+//function getMath(num, times) {
+//    if (typeof(times) !== 'number' || times <= 0) {
+//        return num;
+//    }
+
+//    let str = '';
+
+//    for (let i = 1; i <= times; i++) {
+//        if (i === times) {
+//            str += `${num * i}`;
+//        } else {
+//            str += `${num * i}---`;
+//        }
+//    }
+
+//    return str;
+//}
+
+'use strict';
+'Методи строк';
+//const str = "test";
+//console.log(str.toLowerCase());
+
+//let fruit = "Some fruit";
+//console.log(fruit.indexOf("fruit"));
+
+//const logg = "Hello world";
+//console.log(logg.slice(6, 11));
+//console.log(logg.substring(6, 11));  
+//console.log(logg.substr(6, 5));  
+
+'Методи чисел';
+
+//const num = 12.2;
+//console.log(Math.round(num));
+
+//const test = "12.2px";
+//console.log(parseInt(test));
+//console.log(parseFloat(test));
