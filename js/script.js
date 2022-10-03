@@ -503,3 +503,104 @@
     
 //}
 //console.log(personalMovieDB);
+'Задача 7, яка не може пройти перевірку';
+//function calculateVolumeAndArea(length) {
+
+//    if (typeof (length) !== 'number' || length < 0 || !Number.isInteger(length)) {
+//        return "При вычисление произошла ошибка";
+//    }
+
+//    let volume = 0,
+//        area = 0;
+
+//    volume = length * length * length;
+//    area = 6 * (length * length);
+    
+//    return `Обьем куба: ${volume}, площадь всей поверхности: ${area}`;
+//}
+//console.log(calculateVolumeAndArea(5));
+
+//function getCoupeNumber(seatNuber) {
+//    if ( typeof(seatNuber) !== 'number' || !Number.isInteger(seatNuber) || seatNuber < 0) {
+//        return "Ошибка. Проверьте правильность введенного номера места";
+//    } 
+    
+    
+//    if (seatNuber === 0 || seatNuber > 36) {
+//        return "Таких мест в вагоне не существует";
+//    }
+
+//    return Math.ceil(seatNuber / 4);
+//}
+//console.log(getCoupeNumber(22));
+
+//function getTimeFromMinutes(minutesTotal) {
+//    if (typeof (minutesTotal) !== 'number' || minutesTotal < 0 || !Number.isInteger(minutesTotal)) {
+//        return "Ошибка, проверьте данные";
+//    }
+
+//    const hours = Math.floor(minutesTotal / 60);
+//    const minutes = minutesTotal % 60;
+
+//    let hoursStr = '';
+
+//    switch (hours) {
+//        case 0:
+//            hoursStr = 'часов';
+//            break;
+//        case 1:
+//            hoursStr = 'час';
+//            break;
+//        case 2:    
+//        case 3:    
+//        case 4:    
+//            hoursStr = 'часа';
+//            break;
+//        default:
+//            hoursStr = 'часов';    
+//    }
+
+//    return `Это ${hours} ${hoursStr} и ${minutes} минут`;
+//}
+//console.log(getTimeFromMinutes(190));
+
+//function timeMashin(allMinutes) {
+//    if (typeof(allMinutes) !== 'number' || allMinutes < 0 || !Number.isInteger(allMinutes)) {
+//        return "Ошибка, проверьте данные";
+//    }
+
+//    const hours = Math.floor(allMinutes / 60);
+//    const minutes = allMinutes % 60;
+
+//    let houresStr = '';
+
+//    switch(hours) {
+//        case 0:
+//            houresStr = 'часов';
+//            break;
+//        case 1:
+//            houresStr = 'час';
+//            break;
+//        case 2:
+//        case 3:
+//        case 4:
+//            houresStr = 'часа';
+//            break;
+//        default: houresStr = 'часов';    
+//    }
+
+//    return `Это ${hours} ${houresStr}, и ${minutes} минут.`; 
+//}
+
+//console.log(timeMashin(195));
+
+//function findMaxNumber(a, b, c, d) {
+//    if (typeof(a) !== 'number' ||
+//        typeof(b) !== 'number' ||
+//        typeof(c) !== 'number' ||
+//        typeof(d) !== 'number') {
+//            return 0;
+//        } else {
+//            return Math.max(a, b, c, d);
+//        }
+//    }
