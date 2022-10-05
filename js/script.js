@@ -439,7 +439,7 @@
 //const test = "12.2px";
 //console.log(parseInt(test));
 //console.log(parseFloat(test));
-'Вдоконалина задача з фунціями';
+'Вдосконалина задача з фунціями';
 //let numberOfFilms;
 
 //function start() {
@@ -462,7 +462,7 @@
 
 //function rememberMyFilms() {
 //    for (let i = 0; i < 2; i++) {
-//        const a = prompt('Один из просмотренных фильмов?', ''),
+//        const a = prompt('Один из просмотренных фильмов?', '').trim(),
 //              b = prompt('На сколько оцените его?', '');
     
 //        if (a != null && b != null && a != '' && b != '' && a.length < 50 ) {
@@ -604,3 +604,89 @@
 //            return Math.max(a, b, c, d);
 //        }
 //    }
+
+
+
+// function fib(num) {
+//    if (typeof(num) !== 'number' || num <= 0 || !Number.isInteger(num)) {
+//        return "";
+//    }
+
+//    let result = '';
+//    let first = 0;
+//    let second = 1;
+
+//    for (let i = 0; i < num; i++) {
+//        if (i + 1 === num) {
+//            result += `${first}`;
+//        } else {
+//            result += `${first}`;
+//        }
+
+//        let third = first + second;
+//        first = second;
+//        second = third;
+//    }
+
+//    return result;
+// }
+
+"Числа Фібаначі з рекурсією";
+//function fib(n) {
+//    return n <= 1 ? n : fib(n - 1) + fib(n -2);
+//}
+
+"Числа Фібаначі без рекурсії";
+//function fib(n) {
+//    let a = 1;
+//    let b = 1;
+
+//    for (let i = 3; i <= n; i++) {
+//        let c = a + b;
+//        a = b;
+//        b = c;
+//    }
+
+//    return b;
+//}
+
+"Числа Фібаначі без рекурсії задачка курса";
+//function fib(num) {
+//    if (typeof(num) !== 'number' || num <= 0 || !Number.isInteger(num)) {
+//        return "";
+//    }
+
+//    let result = '';
+//    let first = 0;
+//    let second = 1;
+
+//    for (let i = 0; i < num; i++) {
+//        if (i + 1 === num) {
+//            result += `${first}`;
+//        } else {
+//            result += `${first}`;
+//        }
+
+//        let third = first + second;
+//        first = second;
+//        second = third;
+//    }
+
+//    return result;
+//}
+
+//console.log(fib());
+
+'Callback - function'; 
+function learnJS(leng, callback) {
+
+    console.log(`Я учу: ${leng}`);
+    callback();
+
+}
+
+function done() {
+    console.log('Я прошол этот урок');
+}
+
+learnJS('JavaScript', done);
