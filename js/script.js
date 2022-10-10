@@ -820,29 +820,29 @@
 //console.log(newArray);
 //console.log(oldArray);
 
-const video = ['youtube', 'vimeo', 'rutube'],
-      blogs = ['wordpress', 'livejournal', 'blogger'],
-      internet = [...blogs, ...video, 'vk', 'facebook'];      
+//const video = ['youtube', 'vimeo', 'rutube'],
+//      blogs = ['wordpress', 'livejournal', 'blogger'],
+//      internet = [...blogs, ...video, 'vk', 'facebook'];      
 
-console.log(internet);  
+//console.log(internet);  
 
-function log(a, b, c) {
-    console.log(a);
-    console.log(b);
-    console.log(c);
-}
-const num = [2, 5, 7];
+//function log(a, b, c) {
+//    console.log(a);
+//    console.log(b);
+//    console.log(c);
+//}
+//const num = [2, 5, 7];
 
-log(...num);
+//log(...num);
 
 
-const array = ['a', 'b'];
+//const array = ['a', 'b'];
 
-const newAarraey = [...array];
+//const newAarraey = [...array];
 
-const q = {
-    one: 1,
-    two: 2
-};
+//const q = {
+//    one: 1,
+//    two: 2
+//};
 
-const newObj = {...q}
+//const newObj = {...q}
