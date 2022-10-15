@@ -846,3 +846,137 @@
 //};
 
 //const newObj = {...q}
+
+//const personalPlanPeter = {
+//    name: "Peter",
+//    age: "29",
+//    skills: {
+//        languages: ['ru', 'eng'],
+//        programmingLangs: {
+//            js: '20%',
+//            php: '10%'
+//        },
+//        exp: '1 month'
+//    },
+
+//    showAgeAndLangs: function(plan) {
+//        const {age} = plan;
+//        const {languages} = plan.skills;
+//        let str = `Мне ${age} и я владею языками: `;
+
+//        languages.forEach(function(lang) {
+//            str += `${lang.toUpperCase()}`;
+//        });
+//        return str;
+//    }
+//};
+
+//function showExperience(plan) {
+//    const {exp} = plan.skills;
+//    return `${exp}`;
+//}
+//console.log(showExperience(personalPlanPeter));
+
+//function showProgrammingLangs(plan) {
+//    let str = '';
+//    const {programmingLangs} = plan.skills;
+
+//    for (let key in programmingLangs) {
+//        str += `Язык ${key} изучен на ${programmingLangs[key]}\n`
+//    }
+
+//    return str;
+//}
+//console.log(showProgrammingLangs(personalPlanPeter));
+
+//const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+
+//function showFamily(arr) {
+//    let str = '';
+
+    //arr.length === 0 ? str = 'Семья пуста' : str = 'Семья состоит из: ';
+
+    //arr.forEach(member =>{
+    //    str += `${member} `;
+    //});
+
+//    return str;
+//}
+//console.log(showFamily(family));
+//function showFamily(arr) {
+//    let str = 'Семья состоит из: ';
+
+//    for (let item of arr) {
+//        str += ` ${item}`;
+//    }
+
+//    return str;
+//}
+
+//alert(showFamily(family));
+
+//const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
+
+//function standardizeStrings(arr) {
+//    let str = '';
+
+//    arr.forEach(item =>{
+//        str += `${item} `.toLowerCase();
+//    });
+    
+//    return str;
+//}
+
+//console.log(standardizeStrings(favoriteCities));
+
+
+//const someString = 'This is some strange string'; 
+
+//function reverse(str) {
+//    if (typeof(str) !== 'string') {
+//        return "Ошибка!";
+//    } 
+
+//    return str.split('').reverse().join('');
+//}
+//console.log(reverse(someString));
+
+//const baseCurrencies = ['USD', 'EUR'];
+//const additionalCurrencies = ['UAH', 'RUB', 'CNY'];
+
+
+//function availableCurr(arr, missingCurr) {
+//  let str = '';
+
+//  arr.length === 0 ? str = 'Нет доступных валют' : str = 'Доступные валюты:\n';
+
+//  arr.forEach(function(curr, i) {
+//    if (curr !== missingCurr) {
+//        str += `${curr}\n`;
+//    }
+//  });
+
+//  return str;
+//}
+//console.log(availableCurr([...baseCurrencies, ...additionalCurrencies]), 'UAH');
+
+//const soldier = {
+//    health: 400, 
+//    armor: 100,
+//    sayHello: function() {
+//        console.log('Hello');
+//    }
+//};
+
+//const jonh = Object.create(soldier);
+
+//const jonh = {
+//    health: 100
+//};
+
+//jonh.__proto__ = soldier;
+//Object.setPrototypeOf(jonh, soldier);
+
+//console.log(jonh);
+//jonh.sayHello();
+
