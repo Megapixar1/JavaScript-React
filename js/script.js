@@ -1016,73 +1016,73 @@
 //}
 'Вдосконалина задача з фунціями 2';
 
-const personalMovieDB = {
-      count: 0,
-      movies: {},
-      actors: {},
-      genres: [],
-      privat: false,
-      start:  function() {
-        personalMovieDB.count = +prompt('Сколько фильмов Вы уже смотрели?', '');
+//const personalMovieDB = {
+//      count: 0,
+//      movies: {},
+//      actors: {},
+//      genres: [],
+//      privat: false,
+//      start:  function() {
+//        personalMovieDB.count = +prompt('Сколько фильмов Вы уже смотрели?', '');
     
-        while (personalMovieDB.count == '' || personalMovieDB.count == null || isNaN(personalMovieDB.count)) {
-                personalMovieDB.count = +prompt('Сколько фильмов Вы уже смотрели?', '');
-            }
-     },
-     rememberMyFilms: function() {
-        for (let i = 0; i < 2; i++) {
-            const a = prompt('Один из просмотренных фильмов?', '').trim(),
-                  b = prompt('На сколько оцените его?', '');
+//        while (personalMovieDB.count == '' || personalMovieDB.count == null || isNaN(personalMovieDB.count)) {
+//                personalMovieDB.count = +prompt('Сколько фильмов Вы уже смотрели?', '');
+//            }
+//     },
+//     rememberMyFilms: function() {
+//        for (let i = 0; i < 2; i++) {
+//            const a = prompt('Один из просмотренных фильмов?', '').trim(),
+//                  b = prompt('На сколько оцените его?', '');
         
-            if (a != null && b != null && a != '' && b != '' && a.length < 50 ) {
-                personalMovieDB.movies[a] = b;
-                console.log('done');
-            }  else {
-                console.log('Error');
-                i--;
-            }   
-        }
-    },
-    detectPersonalLevel: function() {
-        if (personalMovieDB.count < 10) {
-            console.log('Просмотрено довольно мало фильмов');
-        } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-            console.log('Вы класичекий зритель');
-        } else if (personalMovieDB.count >= 30) {
-            console.log('Вы киноман');
-        } else {
-            console.log('Произошла ошибка');
-        }    
-    },
-    showMyDB: function(hidden) {
-        if (!hidden) {
-            console.log(personalMovieDB);
-        }
-    },
-    toggleVisibleMyDB: function() {
-        if (personalMovieDB.privat) {
-            personalMovieDB.privat = false;
-        } else {
-            personalMovieDB.privat = true;
-        }
-    },
-    writeYourGenres: function() {
-        for (let i = 1; i <= 3; i++) {
-            let genre = prompt(`Ваш любимий жанр под номером ${i}`);
+//            if (a != null && b != null && a != '' && b != '' && a.length < 50 ) {
+//                personalMovieDB.movies[a] = b;
+//                console.log('done');
+//            }  else {
+//                console.log('Error');
+//                i--;
+//            }   
+//        }
+//    },
+//    detectPersonalLevel: function() {
+//        if (personalMovieDB.count < 10) {
+//            console.log('Просмотрено довольно мало фильмов');
+//        } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//            console.log('Вы класичекий зритель');
+//        } else if (personalMovieDB.count >= 30) {
+//            console.log('Вы киноман');
+//        } else {
+//            console.log('Произошла ошибка');
+//        }    
+//    },
+//    showMyDB: function(hidden) {
+//        if (!hidden) {
+//            console.log(personalMovieDB);
+//        }
+//    },
+//    toggleVisibleMyDB: function() {
+//        if (personalMovieDB.privat) {
+//            personalMovieDB.privat = false;
+//        } else {
+//            personalMovieDB.privat = true;
+//        }
+//    },
+//    writeYourGenres: function() {
+//        for (let i = 1; i <= 3; i++) {
+//            let genre = prompt(`Ваш любимий жанр под номером ${i}`);
 
-            if (genre == '' || genre === null) {
-                console.log('Вы ввели некорректные данные или не ввели их вообще');
-                i--;
-            } else {
-               personalMovieDB.genres[i - 1] = genre; 
-            }
-        }
+//            if (genre == '' || genre === null) {
+//                console.log('Вы ввели некорректные данные или не ввели их вообще');
+//                i--;
+//            } else {
+//               personalMovieDB.genres[i - 1] = genre; 
+//            }
+//        }
 
-        personalMovieDB.genres.forEach((item, i) => {
-            console.log(`Любимый жанр номер ${i + 1} - это ${item}`);
-        });
-    }
-};
+//        personalMovieDB.genres.forEach((item, i) => {
+//            console.log(`Любимый жанр номер ${i + 1} - это ${item}`);
+//        });
+//    }
+//};
 
 //const shoppingMallData = {
 //    shops: [
@@ -1163,11 +1163,127 @@ const personalMovieDB = {
 //    console.log('Working...');
 //}
 
-let number = 5;
+//let number = 5; debugger
 
-function logNumber() {
-    console.log(number);
+//function logNumber() {
+//    console.log(number); debugger
+//}
+//number = 6;
+//logNumber(); debugger
+
+//number = 8;
+//logNumber(); debugger
+
+//function createCounter() {
+//    let counter = 0;
+
+//    const myFunction = function () {debugger
+//        counter += 1;debugger
+//        return counter; debugger
+//    };
+
+//    return myFunction;
+//}
+//debugger
+//const increment = createCounter();debugger
+//const c1 = increment();debugger
+//const c2 = increment();debugger
+//const c3 = increment();debugger
+
+//console.log(c1, c2, c3);
+//let a = 3;
+//function addTwo(x) {
+//    let ret = x + 2;
+//    return ret;
+//}
+
+//let b = addTwo(a);
+//console.log(b);
+
+//let val1 = 2;
+//function multiplyThis(n) {
+//    let ret = n * val1;
+//    return ret;
+//}
+//let multiplyed = multiplyThis(6);
+//console.log('Example of scope:',  multiplyed);
+
+
+//let val = 7;
+//function createAdder() {
+//    function addNumbers(a, b) {
+//        let ret = a +b;
+//        return ret;
+//    }
+//    return addNumbers;
+//}
+//let adder = createAdder();
+//let sum = adder(val, 8);
+//console.log('example of function returning a function: ', sum);
+
+//function createCounter() {
+//    let counter = 0;
+
+//    const myFunction = function() {
+//        counter += 1;
+//        return counter;
+//    };
+
+//    return myFunction;
+//}
+
+//const increment = createCounter();
+//const c1 = increment();
+//const c2 = increment();
+//const c3 = increment();
+//console.log('example increment', c1, c2, c3);
+
+//function makeCounter() {
+
+//    function counter() {
+//        return counter.count++;
+//    }
+
+//    counter.count = 0;
+//    return counter;
+//}
+//let counter = makeCounter();
+//console.log(counter());
+//console.log(counter());
+//console.log(counter());
+
+const restorantData = {
+    menu: [
+        {
+            name: 'Salad Caesar',
+            price: '14$'
+        },
+        {
+            name: 'Pizza Diavola',
+            price: '9$'
+        },
+        {
+            name: 'Beefsteak',
+            price: '17$'
+        },
+        {
+            name: 'Napoleon',
+            price: '7$'
+        }
+    ],
+    waitors: [
+        {name: 'Alice', age: 22}, {name: 'John', age: 24}
+    ],
+    averageLunchPrice: '20$',
+    openNow: true
+};
+
+
+function isOpen(prop) {
+    let answer = '';
+    prop ? answer = 'Открыто' : answer = 'Закрыто';
+
+    return answer;
 }
-number = 6;
-logNumber();
 
+console.log(isOpen(restorantData.openNow));
