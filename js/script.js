@@ -1312,10 +1312,3 @@
 //        console.log('Not working');
 //    }
 
-const value = '';
-
- if ((value ?? '') !== '') {
-    console.log('Not working');
- }
-
- console.log('');
