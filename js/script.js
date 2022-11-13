@@ -136,7 +136,7 @@
 //    console.log(i);
 //}
 
-'Цикл в циклі і мітки';
+'Цикл в циклі мітки';
 
 //for (let i = 0; i < 3; i++) {
 //    console.log(i);
@@ -1312,4 +1312,26 @@
 //        console.log('Not working');
 //    }
 
-const box = document.getElementById('');
+//const box = document.getElementById('box');
+//console.log(box);
+
+//const btns = document.getElementsByTagName('button')[1];
+//console.log(btns);
+
+//const circles = document.getElementsByClassName('circle');
+//console.log(circles[0]);
+
+//const hearts = document.querySelectorAll('.heart');
+//hearts.forEach(item =>{
+//    console.log(item);
+//});
+
+//const oneHeart = document.querySelector('.heart ');
+//console.log(oneHeart);
+
+
+const box = document.getElementById('box'),
+      btns = document.getElementsByTagName('button'),
+      circles = document.getElementsByClassName('circle'),
+      hearts = document.querySelectorAll('heart'),
+      oneHeart = document.querySelector('.heart');
