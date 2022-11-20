@@ -216,14 +216,13 @@
 //const length = 7;
 
 //for (let i = 1; i < length; i++) {
-
 //    for (let j = 0; j < i; i++) {
 //        result += '*';
 //    }
 
 //    result += '\n';
 //}
-"Фігура - ялинка";
+"Фігура - ялинка";  
 //let result = '';
 //const lines = 5;
 
@@ -239,6 +238,7 @@
 //    result += '\n';
 //}
 //console.log(result);
+
 
 'Автоматизація і розширення задачі';
 
@@ -1329,9 +1329,47 @@
 //const oneHeart = document.querySelector('.heart ');
 //console.log(oneHeart);
 
+const num = 250;
 
 const box = document.getElementById('box'),
       btns = document.getElementsByTagName('button'),
       circles = document.getElementsByClassName('circle'),
-      hearts = document.querySelectorAll('heart'),
-      oneHeart = document.querySelector('.heart');
+      wrapper = document.querySelector('.wrapper'),
+      hearts = wrapper.querySelectorAll('.heart'),
+      oneHeart = wrapper.querySelector('.heart');
+      
+
+
+box.style.cssText = 'background-color: blue; width: 150px';
+
+btns[1].style.borderRadius = '100%';
+circles[0].style.backgroundColor = 'red';
+
+hearts.forEach(item => {
+    item.style.backgroundColor = 'blue';
+});
+
+
+const div = document.createElement('div');
+div.classList.add('black');
+
+wrapper.append(div);
+//wrapper.appendChild(div);
+
+//wrapper.prepend(div);
+
+//hearts[0].before(div);
+//hearts[0].after(div);
+
+//wrapper.insertBefore(div, hearts[1]);
+
+//circles[0].remove();
+
+//hearts[0].replaceWith(circles[0]);
+
+//div.innerHTML ='Hello world';
+div.innerHTML ="<h1>Hello World</h1>";
+
+//div.textContent = "Hello";
+
+div.insertAdjacentHTML('afterend', '<h2>Hello</h2>');
