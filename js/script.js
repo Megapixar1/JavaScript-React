@@ -1,4 +1,4 @@
-"Маленька задачка";
+//"Маленька задачка";
 
 //const numberOfFilms = +prompt('Сколько фильмов Вы уже смотрели?', '');
 
@@ -18,7 +18,7 @@
 //personalMovieDB.movies[a] = b;
 //personalMovieDB.movies[c] = d;
 //console.log(personalMovieDB);
-"Умови";
+//"Умови";
 //if (4 == 9) {
 //    console.log('ok');
 //} else {
@@ -54,7 +54,7 @@
 //        break;   
 //}
 
-'Логічні оператори';
+//'Логічні оператори';
 //const hamburger = 5;
 //const fries = 0;
 
@@ -116,7 +116,7 @@
 //console.log( NaN || null && !3 && undefined || 5);
  
 //console.log( 5 === 5 && 3 > 1 || 5);
-'Цикли';
+//'Цикли';
 
 //while (num <= 55) {
 //    console.log(num);
@@ -136,7 +136,7 @@
 //    console.log(i);
 //}
 
-'Цикл в циклі мітки';
+//'Цикл в циклі мітки';
 
 //for (let i = 0; i < 3; i++) {
 //    console.log(i);
@@ -159,7 +159,7 @@
 //}
 
 
-"Вивести тільки чотні числа";
+//"Вивести тільки чотні числа";
 //let i = 2;
 //while (i <= 16) {
 //    if (i % 2 === 0) {
@@ -171,7 +171,7 @@
 //    i++;
 //}
 
-"Скопіювати один массив в інший";
+//"Скопіювати один массив в інший";
 //const arr = [3, 5, 8, 16, 20, 23, 50];
 //const result = [];
 
@@ -179,7 +179,7 @@
 //    result[i] = arr[i];
 //}
 //console.log(result);
-"Числаа в массиві помножити на 2, а до строк додати -done";
+//"Числаа в массиві помножити на 2, а до строк додати -done";
 //let data = [ 5, 10, 'Shopping', 20, 'Homework'];
 
 //for (let i = 0; i < data.length; i++) {
@@ -192,7 +192,7 @@
 
 //console.log(data);
 
-"Скопіювати массив в інший массив";
+//"Скопіювати массив в інший массив";
 //let arr = [3, 5, 8, 16, 20, 23, 50];
 //let result = [];
 
@@ -201,7 +201,7 @@
 //}
 
 //console.log(result);
-"Скопіювати массив в інший массив задом на перед";
+//"Скопіювати массив в інший массив задом на перед";
 //let data = [ 5, 10, 'Shopping', 20, 'Homework' ];
 //let result = [];
 
@@ -211,7 +211,7 @@
 
 //console.log(result);
 
-'Фігура - пів ялинки';
+//'Фігура - пів ялинки';
 //let result = '';
 //const length = 7;
 
@@ -222,7 +222,7 @@
 
 //    result += '\n';
 //}
-"Фігура - ялинка";  
+//"Фігура - ялинка";  
 //let result = '';
 //const lines = 5;
 
@@ -240,7 +240,7 @@
 //console.log(result);
 
 
-'Автоматизація і розширення задачі';
+//'Автоматизація і розширення задачі';
 
 //const numberOfFilms = +prompt('Сколько фильмов Вы уже смотрели?', '');
 
@@ -275,7 +275,7 @@
 //    console.log('Произошла ошибка');
 //}
 //console.log(personalMovieDB);
-'Робота з массивами';
+//'Робота з массивами';
 //let styles = ['Джас', 'Блюз'];
 //styles.push('Рок-н-Родд');
 //styles[Math.floor((styles.length - 1) / 2)] = 'Классика';
@@ -292,7 +292,7 @@
 //arr[2]();
 
 //console.log(arr);
-'Цікава задачка';
+//'Цікава задачка';
 //function sunInput() {
 
 //    let numbers = [];
@@ -316,7 +316,7 @@
 //sunInput();
 
 
-'Функції';
+//'Функції';
 //let num = 20;
 //function showFirstMessage(text) {
 //    console.log(text);
@@ -418,8 +418,8 @@
 //    return str;
 //}
 
-'use strict';
-'Методи строк';
+//'use strict';
+//'Методи строк';
 //const str = "test";
 //console.log(str.toLowerCase());
 
@@ -431,7 +431,7 @@
 //console.log(logg.substring(6, 11));  
 //console.log(logg.substr(6, 5));  
 
-'Методи чисел';
+//'Методи чисел';
 
 //const num = 12.2;
 //console.log(Math.round(num));
@@ -440,70 +440,70 @@
 //console.log(parseInt(test));
 //console.log(parseFloat(test));
 //'Вдосконалина задача з фунціями';
-////let numberOfFilms;
+//let numberOfFilms;
 
-////function start() {
-////    numberOfFilms = +prompt('Сколько фильмов Вы уже смотрели?', '');
+//function start() {
+//    numberOfFilms = +prompt('Сколько фильмов Вы уже смотрели?', '');
 
-////    while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
-////        numberOfFilms = +prompt('Сколько фильмов Вы уже смотрели?', '');
-////    }
-////}
-////start();
+//    while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
+//        numberOfFilms = +prompt('Сколько фильмов Вы уже смотрели?', '');
+//    }
+//}
+//start();
 
-////const personalMovieDB = {
-////      count: numberOfFilms,
-////      movies: {},
-////      actors: {},
-////      genres: [],
-////      privat: false
-////};
+//const personalMovieDB = {
+//      count: numberOfFilms,
+//      movies: {},
+//      actors: {},
+//      genres: [],
+//      privat: false
+//};
 
 
-////function rememberMyFilms() {
-////    for (let i = 0; i < 2; i++) {
-////        const a = prompt('Один из просмотренных фильмов?', '').trim(),
-////              b = prompt('На сколько оцените его?', '');
+//function rememberMyFilms() {
+//    for (let i = 0; i < 2; i++) {
+//        const a = prompt('Один из просмотренных фильмов?', '').trim(),
+//              b = prompt('На сколько оцените его?', '');
     
-////        if (a != null && b != null && a != '' && b != '' && a.length < 50 ) {
-////            personalMovieDB.movies[a] = b;
-////            console.log('done');
-////        }  else {
-////            console.log('Error');
-////            i--;
-////        }   
-////    }
-////}
-////rememberMyFilms();
+//        if (a != null && b != null && a != '' && b != '' && a.length < 50 ) {
+//            personalMovieDB.movies[a] = b;
+//            console.log('done');
+//        }  else {
+//            console.log('Error');
+//            i--;
+//        }   
+//    }
+//}
+//rememberMyFilms();
 
-////function detectPersonalLevel() {
-////    if (personalMovieDB.count < 10) {
-////        console.log('Просмотрено довольно мало фильмов');
-////    } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-////        console.log('Вы класичекий зритель');
-////    } else if (personalMovieDB.count >= 30) {
-////        console.log('Вы киноман');
-////    } else {
-////        console.log('Произошла ошибка');
-////    }    
-////}
-////detectPersonalLevel();
+//function detectPersonalLevel() {
+//    if (personalMovieDB.count < 10) {
+//        console.log('Просмотрено довольно мало фильмов');
+//    } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//        console.log('Вы класичекий зритель');
+//    } else if (personalMovieDB.count >= 30) {
+//        console.log('Вы киноман');
+//    } else {
+//        console.log('Произошла ошибка');
+//    }    
+//}
+//detectPersonalLevel();
 
-////function showMyDB(hidden) {
-////    if (!hidden) {
-////        console.log(personalMovieDB);
-////    }
-////}
-////showMyDB(personalMovieDB.privat);
+//function showMyDB(hidden) {
+//    if (!hidden) {
+//        console.log(personalMovieDB);
+//    }
+//}
+//showMyDB(personalMovieDB.privat);
 
-////function writeYourGenres() {
-////    for (let i = 1; i <= 3; i++) {
-////        personalMovieDB.genres[i - 1] = prompt(`Ваш любимий жанр под номером ${i}`);
-////    }
+//function writeYourGenres() {
+//    for (let i = 1; i <= 3; i++) {
+//        personalMovieDB.genres[i - 1] = prompt(`Ваш любимий жанр под номером ${i}`);
+//    }
     
-////}
-////console.log(personalMovieDB);
-'Задача 7, яка не може пройти перевірку';
+//}
+//console.log(personalMovieDB);
+//'Задача 7, яка не може пройти перевірку';
 //function calculateVolumeAndArea(length) {
 
 //    if (typeof (length) !== 'number' || length < 0 || !Number.isInteger(length)) {
@@ -631,12 +631,12 @@
 //    return result;
 // }
 
-"Числа Фібаначі з рекурсією";
+//"Числа Фібаначі з рекурсією";
 //function fib(n) {
 //    return n <= 1 ? n : fib(n - 1) + fib(n -2);
 //}
 
-"Числа Фібаначі без рекурсії";
+//"Числа Фібаначі без рекурсії";
 //function fib(n) {
 //    let a = 1;
 //    let b = 1;
@@ -650,7 +650,7 @@
 //    return b;
 //}
 
-"Числа Фібаначі без рекурсії задачка курса";
+//"Числа Фібаначі без рекурсії задачка курса";
 //function fib(num) {
 //    if (typeof(num) !== 'number' || num <= 0 || !Number.isInteger(num)) {
 //        return "";
@@ -1014,7 +1014,7 @@
 //        }   
 //    }
 //}
-'Вдосконалина задача з фунціями 2';
+//'Вдосконалина задача з фунціями 2';
 
 //const personalMovieDB = {
 //      count: 0,
@@ -1329,31 +1329,31 @@
 //const oneHeart = document.querySelector('.heart ');
 //console.log(oneHeart);
 
-const num = 250;
+//const num = 250;
 
-const box = document.getElementById('box'),
-      btns = document.getElementsByTagName('button'),
-      circles = document.getElementsByClassName('circle'),
-      wrapper = document.querySelector('.wrapper'),
-      hearts = wrapper.querySelectorAll('.heart'),
-      oneHeart = wrapper.querySelector('.heart');
+//const box = document.getElementById('box'),
+//      btns = document.getElementsByTagName('button'),
+//      circles = document.getElementsByClassName('circle'),
+//      wrapper = document.querySelector('.wrapper'),
+//      hearts = wrapper.querySelectorAll('.heart'),
+//      oneHeart = wrapper.querySelector('.heart');
       
 
 
-box.style.cssText = 'background-color: blue; width: 150px';
+//box.style.cssText = 'background-color: blue; width: 150px';
 
-btns[1].style.borderRadius = '100%';
-circles[0].style.backgroundColor = 'red';
+//btns[1].style.borderRadius = '100%';
+//circles[0].style.backgroundColor = 'red';
 
-hearts.forEach(item => {
-    item.style.backgroundColor = 'blue';
-});
+//hearts.forEach(item => {
+//    item.style.backgroundColor = 'blue';
+//});
 
 
-const div = document.createElement('div');
-div.classList.add('black');
+//const div = document.createElement('div');
+//div.classList.add('black');
 
-wrapper.append(div);
+//wrapper.append(div);
 //wrapper.appendChild(div);
 
 //wrapper.prepend(div);
@@ -1368,8 +1368,306 @@ wrapper.append(div);
 //hearts[0].replaceWith(circles[0]);
 
 //div.innerHTML ='Hello world';
-div.innerHTML ="<h1>Hello World</h1>";
+//div.innerHTML ="<h1>Hello World</h1>";
 
 //div.textContent = "Hello";
 
-div.insertAdjacentHTML('afterend', '<h2>Hello</h2>');
+//div.insertAdjacentHTML('afterend', '<h2>Hello</h2>');
+
+//const btn = document.querySelector('button'),
+//      ovarlay = document.querySelector('.ovarlay');
+
+
+//btn.onclick = function() {
+//    alert('Click');
+//};
+
+//btn.addEventListener('click', () => {
+//    alert('click');
+//});
+
+//let i = 0;
+
+//const deleteElement = (e) => {
+//    console.log(e.currentTarget);
+//    console.log(e.type);
+//};
+
+//btn.addEventListener('click', deleteElement);
+//ovarlay.addEventListener('click', deleteElement);
+
+//btn.addEventListener('click', (e) => {
+//    e.target.remove();
+//    //console.log('click');
+//});
+
+//const link = document.querySelector('a');
+
+//link.addEventListener('click', function(event) {
+//    event.preventDefault();
+
+//    console.log(event.target); 
+//});
+
+
+//console.log(document.head);
+//console.log(document.documentElement);
+//console.log(document.body.childNodes);
+//console.log(document.body.firstChild);
+//console.log(document.body.firstElementChild);
+//console.log(document.body.lastChild);
+//console.log(document.body.lastElementChild);
+
+
+//console.log(document.querySelector('#current').parentNode.parentElement);
+
+//console.log(document.querySelector('[data-current="3"]').nextElementSibling);
+
+
+//for (let node of document.body.childNodes) {
+//    if (node.nodeName == '#text') {
+//        continue;
+//    }
+//    console.log(node);
+
+
+'Рекурсія';
+//function pow(x, n) {
+//    let result = 1;
+
+//    for (let i = 0; i < n; i++) {
+//        result *= x; 
+//    }
+
+//    return result;
+//}
+
+//function pow(x, n) {
+//    if (n === 1) {
+//        return x;
+//    } else {
+//        return x * pow(x, n - 1);
+//    }
+//}
+
+//let students = {
+//    js: [{
+//        name: 'John',
+//        progress: 100
+//    }, {
+//        name: 'Ivan',
+//        progress: 60
+//    }],
+
+//    html: {
+//        basic: [{
+//            name: 'Petr',
+//            progress: 20
+//        }, {
+//            name: 'Ann',
+//            progress: 18
+//        }],
+
+//        pro: [{
+//            name: 'Sam',
+//            progress: 10
+//        }],
+
+//        semi: {
+//            students: [{
+//                name: 'Test',
+//                progress: 100
+//            }]
+//        }
+//    } 
+//};
+
+//function getTotalProgressByIteration(data) {
+//    let total = 0;
+//    let students = 0;
+
+//    for (let course of Object.values(data)) {
+//        if (Array.isArray(course)) {
+//            students += course.length;
+            
+//            for (let i = 0; i < course.length; i++) {
+//                total += course[i].progress;
+//            }
+//        } else {
+//            for (let subCourse of Object.values(course)) {
+//                students += subCourse.length;
+
+//                for (let i = 0; i < subCourse.length; i++) {
+//                    total += subCourse[i].progress;
+//                }
+//            } 
+//        }
+//    }
+
+//    return total / students;
+//}
+//console.log(getTotalProgressByIteration(students));
+
+//function getTotalProgressByRecursion(data) {
+
+//    if (Array.isArray(data)) {
+//        let total = 0;
+        
+//        for (let i = 0; i < data.length; i++) {
+//            total += data[i].progress;
+//        }
+
+//        return [total, data.length];
+//    }  else {
+//        let total = [0, 0];
+
+//        for (let subData of Object.values(data)) {
+//            const subDataArray = getTotalProgressByRecursion(subData);
+//            total[0] += subDataArray[0];
+//            total[1] += subDataArray[1];
+//        }
+//        return total;
+//    }
+
+//}
+//const result = getTotalProgressByRecursion(students);
+//console.log(result[0] / result[1]);
+
+//"Фракториал";
+//function fractorial(n) {
+//    if (typeof(n) !== 'number' || !Number.isInteger(n)) {
+//        return 'Ошибка, проверьте данные';
+//    }
+
+//    if (n >= 1) {
+//        return n * fractorial(n - 1);
+//    } else {
+//        return 1;
+//    }
+//}
+
+"Задачка";
+
+const movieDB = {
+    movies: [
+        "Логан",
+        "Лига Справедливости",
+        "Ла-Ла Лэнд",
+        "Одержмость",
+        "Скот Пиллигрим против...",
+    ]
+};
+
+document.addEventListener('DOMContentLoader', () => {
+
+    const addForm = document.querySelector('form.add'),
+          addInput = addForm.querySelector('.adding__input'),
+          checkbox = addForm.querySelector('[type="checkbox"]'),
+          movieList = document.querySelector('.promo__interactive-list'),
+          genre = document.querySelector('.promo__genre'),
+          adv = document.querySelector('');
+
+
+    const deleteAdv = (arr) => {
+        arr.forEach(item => {
+            item.remove();
+        });
+    };      
+    deleteAdv(adv);
+
+
+    addForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        let newFilm = addInput.value;
+        const favorite = checkbox.checked;
+
+        if (newFilm) {
+
+            if (newFilm.length > 21) {
+                newFilm = `${newFilm.substring(0, 22)}...`;
+            }
+
+            if (favorite) {
+                console.log("Добавляем любимый фильм");
+            }
+
+            movieDB.movies.push(newFilm);
+            sortArr(movieDB.movies);
+    
+            createMovieList(movieDB.movies, movieList);
+        }
+        event.target.reset();
+    });
+
+
+
+    const makeChenges = () => {
+        genre.textContent = 'драма';
+
+        poster.style.backgroundImage = 'url("img/bg.jpg")';
+    };
+    makeChenges();
+
+
+    const sortArr = (arr) => {
+        arr.sort();
+    };
+
+
+    function createMovieList(films, parent) {
+        parent.innerHTML = "";
+        sortArr(films);
+
+        films.forEach((film, i) => {
+            movieList.innerHTML += `
+            <li class="promo__interactive-item">${i + 1} ${film}
+                <div class="delete"></div>
+            </li>
+            `;
+        });
+
+        document.querySelectorAll('.delete').forEach((btn, i) => {
+            btn.addEventListener('click', () => {
+                btn.parentElement.remove();
+                movieDB.movies.splice(i, 1);
+
+                createMovieList(movieDB.movies, movieList);
+            });
+        });
+    }
+    createMovieList(films, parent);
+
+});
+
+
+//let a = 6,
+//    b = 7;
+//[a, b] = [b, a];    
+
+
+//let array = ['b', 'd', 'c', 'a'];
+//function alfa(arr) {
+//   return  arr.sort((a, b) => a.localeCompare(b));
+//}
+
+
+//const Reduplicates = array => [... new Set(array)];
+//Reduplicates([200, 200, 300, 300, 400, 500, 500, 600]);
+
+
+//const x = [1, 2, 3, 4];
+//const y = x.find(div => div%2 === 0);
+
+
+
+//const arr = [1, 2, 3, 4, 5];
+//const square = x => Math.pow(x, 2);
+//const squares = arr.map(square);
+
+//const a = [1, 2, 3],
+//      b = [4, 5, 6];
+      
+//const arr = [...a, ...b];
+//console.log(arr);      
+
